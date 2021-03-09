@@ -203,3 +203,51 @@ aside#sidebar{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+@media(max-width: 768px) {
+  header #branding{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header nav,
+  header nav li{
+    float: left !important;
+    padding-bottom: 10px;
+  }
+
+  header nav li div .dropdown{
+    float: right !important;
+    overflow: hidden;
+  }
+
+  section div h1,
+  section div h1 p,
+  section#newsletter div h1{
+    text-align: center;
+  }
+
+  section#newsletter h1,
+  section#newsletter form{
+    float: none;
+  }
+
+  #boxes .box{
+    float: none;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+  }
+
+  article#about_article,
+  aside#sidebar{
+    float: none;
+    width: 100%;
+  }
+
+  #about_article_p, #sidebar{
+    margin-bottom: 15px;
+  }
+
+}
