@@ -1,0 +1,106 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+footer{
+  padding:20px;
+  margin-top: 20px;
+  color: #939393;
+  text-align: center;
+  letter-spacing: -0.006em;
+}
+
+
+#ecommerce_logo{
+  width: 150px;
+  padding-top: 10px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar nav{
+  flex: 1;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.navbar nav ul{
+  display: inline-block;
+}
+
+.navbar nav ul li{
+  display: inline-block;
+  padding: 15px;
+}
+
+.navbar nav ul li a{
+  text-decoration: none;
+  color: #555;
+}
+
+.container{
+  max-height: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.showcaseRow{
+  margin-left: 50px;
+}
+
+.showcase{
+  text-align: center;
+  padding-top: 120px;
+  font-size: 16px;
+}
+
+.showcase p{
+  padding-left: 30px;
+}
+
+.imgHeader{
+  width: 450px;
+}
+
+.exploreBtn{
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 10px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+
+}
+
+.exploreBtn:hover{
+  background: #563434;
+  text-decoration: none;
+  color: white;
+}
+
+.header{
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+.categories{
+  width: 80%;
+  margin: auto;
+}
+
+.categories div .col-lg-4{
+  padding: 20px;
+}
+
+.categories div .col-lg-4 img{
+  width: 250px;
+}

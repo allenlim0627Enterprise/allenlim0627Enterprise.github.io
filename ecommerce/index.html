@@ -6,23 +6,56 @@
     <meta name="description" content="A ecommerce website built for testing pure html and css">
     <meta name="author" content="Allen Lim">
     <meta name="keywords" content="Demo, Testing, HTML5, CSS">
-    <link rel="stylesheet" href="./css/ecommStyles.css">
+    <link rel="stylesheet" href="../css/ecommStyles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>E-Commerce Demo</title>
   </head>
   <body>
-    <div class="navbar">
-      <div class="logo">
-        <img src="./img/ecommerce/images/log.png" alt="">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="../img/ecommerce/images/logo.png" alt="" id="ecommerce_logo">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Account</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Account</a></li>
-        </ul>
-      </nav>
     </div>
+
+    <div class="row header">
+        <div class="col-lg-6 showcase">
+          <h1>Give Your Workout <br/>A New Style!</h1>
+          <p>Success isn't always about greatness. It's about consistency. Consistent hard work gain success. Greatness will come.</p>
+          <a href="#" class="exploreBtn">Explore Now!</a>
+        </div>
+        <div class="col-lg-6">
+          <img src="../img/ecommerce/images/image1.png" class="imgHeader">
+        </div>
+    </div>
+
+    <div class="categories">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="../img/ecommerce/images/category-1.jpg" alt="">
+        </div>
+        <div class="col-lg-4">
+          <img src="../img/ecommerce/images/category-2.jpg" alt="">
+        </div>
+        <div class="col-lg-4">
+          <img src="../img/ecommerce/images/category-3.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <footer>
+    <p>Simple Ecommerce Design. &copy; 2021</p></footer>
   </body>
 </html>
