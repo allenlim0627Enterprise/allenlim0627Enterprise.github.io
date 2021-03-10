@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 footer{
@@ -19,7 +19,6 @@ footer{
 
 #ecommerce_logo{
   width: 150px;
-  padding-top: 10px;
 }
 
 .navbar{
@@ -103,4 +102,24 @@ footer{
 
 .categories div .col-lg-4 img{
   width: 250px;
+}
+
+.small-container{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.imageProduct{
+    width: 130px;
+    padding: 5px;
+}
+
+@media(max-width:768px) {
+  .imgHeader, .imgCategory, .imageProduct{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
