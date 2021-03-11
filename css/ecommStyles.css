@@ -94,6 +94,8 @@ footer{
 .categories{
   width: 80%;
   margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .categories div .col-lg-4{
@@ -105,9 +107,15 @@ footer{
 }
 
 .small-container{
-  width: 50%;
+  width: 70%;
   margin: auto;
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.small-container h2{
+  padding-bottom: 50px;
 }
 
 .imageProduct{
@@ -115,10 +123,97 @@ footer{
     padding: 5px;
 }
 
+.exclusive-container-section{
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+.exclusive-container{
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.imgExclusive{
+  width: 300px;
+}
+
+.exclusiveSection{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.exclusiveSection p{
+  font-size: 12px;
+}
+
+.feedback{
+  width: 80%;
+  margin: auto;
+  font-size: 12px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.feedback .col-lg-4{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+  padding: 40px 20px;
+}
+
+.feedback .col-lg-4:hover{
+  transform: translateY(-10px);
+}
+
+.feedback p{
+  padding: 10px;
+}
+
+.feedback .username{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.imgUser{
+  width: 80px;
+  border-radius: 55%;
+}
+
+.brand{
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.brand .imgBrand{
+  width: 120px;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.brand .imgBrand:hover{
+  filter: grayscale(0%);
+}
+
 @media(max-width:768px) {
-  .imgHeader, .imgCategory, .imageProduct{
+  .imgHeader, .imgCategory, .imageProduct, .imgExclusive{
     display: block;
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imgUser{
+    display: block;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imgBrand{
+    display: block;
+    width: 100px;
     margin-left: auto;
     margin-right: auto;
   }
