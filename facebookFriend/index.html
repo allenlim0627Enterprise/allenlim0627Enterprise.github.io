@@ -81,6 +81,33 @@
 		</style>
 	</head>
 	<body>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+      <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : '266935381742488',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v10.0'
+      });
+
+      login();
+    };
+
+    function login(){
+      FB.login(function(response) {
+        if (response.authResponse) {
+         console.log('Welcome!  Fetching your information.... ');
+         FB.api('/me', function(response) {
+           console.log('Good to see you, ' + response.name + '.');
+         });
+        } else {
+         console.log('User cancelled login or did not fully authorize.');
+        }
+      });
+    }
+
+    </script>
 
 		<div id="info"><a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> css3d - periodic table.</div>
 		<div id="container"></div>
